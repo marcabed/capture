@@ -1,0 +1,75 @@
+@import 'main.css';
+
+h2 {
+    margin: 100px 0;
+    color: darkcyan;
+    text-align: center;
+    font-size: 35px;
+}
+
+h2::first-letter {
+    font-size: 45px;
+}
+
+h3 {
+    color: darkcyan;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cadre {
+    width: 85%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.vote, .admin {
+    width: 40%;
+    border: 5px solid darkcyan;
+    border-radius: 15px;
+}
+
+.forminput {
+    justify-content: center;
+    align-items: center;
+}
+
+.cadre p {
+    font-size: 25px;
+}
+
+.cadre input {
+    width: 50%;
+    height: 35px;
+    font-size: 25px;
+    padding: 0 10px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+}
+
+.cadre input:focus {
+    outline: none;
+}
+
+.cadre button {
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 45px;
+    font-size: 25px;
+    background-color: darkcyan;
+    color: white;
+    border: 2px solid darkcyan;
+    border-radius: 15px;
+    margin: 40px auto;
+}
+
+.cadre button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px darkcyan;
+}
+
+.cadre button:focus {
+    outline: none;
+}

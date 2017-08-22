@@ -1,0 +1,64 @@
+@import 'main.css';
+@import 'modal.css';
+
+#first {
+    width: 75%;
+    margin: 150px auto 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 300px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.block .img {
+    width: 95%;
+}
+
+.block .img img{
+    max-width: 100%;
+    height: auto;
+}
+
+.block h2 {
+    font-size: 30px;
+}
+
+.block a {
+    color: #999999;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.block a:hover {
+    color: #323232;
+}
+
+
+/* MODAL */
+
+#modal h2 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#modal #creabox {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#modal #creabox div{
+    width: 100%;
+}
+
+#modal #creabox div img {
+    max-width: 100%;
+}
+
+#modal #creabox p {
+    font-size: 25px;
+}

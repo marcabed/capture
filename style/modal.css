@@ -1,0 +1,149 @@
+#modal {
+    position: fixed;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    margin: 0 auto;
+    top:20px;
+    left:20px;
+    box-shadow: 0 0 10px black;
+    background-color: #fff;
+    overflow-y: auto;
+}
+
+#modal::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+#modal::-webkit-scrollbar-thumb {
+    background-color: #505050    ;
+}
+
+#modalbody {
+    width: 75%;
+    margin: 50px auto;
+    position: relative;
+}
+
+/* CLOSE CROSS */
+
+
+#close {
+    cursor: pointer;
+    position: fixed;
+    right: 52px;
+    top: 52px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+}
+
+#close:hover {
+    opacity: 1;
+}
+
+#close:before, #close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+}
+
+#close:before {
+    transform: rotate(45deg);
+}
+
+#close:after {
+    transform: rotate(-45deg);
+}
+
+/* CLOSE CROSS */
+
+.cadre {
+    margin-bottom: 100px;
+}
+
+#modal .photographe {
+    width: 250px;
+}
+
+#modal .photographe img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#modal .name {
+    width: calc(100% - 250px);
+    align-items: center;
+    justify-content: center;
+}
+
+#modal span {
+    display: block;
+    margin: 50px 0;
+}
+
+#modal h2 {
+    font-size: 55px;
+    color: darkcyan;
+}
+
+#modal h3 {
+    font-size: 25px;
+    color: darkcyan;
+    margin-bottom: 15px;
+}
+
+#modal h3::first-letter {
+    font-size: 35px;
+}
+
+#modal p {
+    font-size: 20px;
+}
+
+#modal .photo {
+    flex-wrap: wrap; 
+}
+
+#modal .photo div {
+    margin: 0 10px;
+    width: calc(25% - 20px);
+    margin-bottom: 25px;
+}
+
+#modal .photo div img{
+    max-width: 100%;
+    height: auto;
+}
+
+#modal .parution {
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+#modal .box {
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+#modal .box a {
+    display: block;
+    width: 300px;
+}
+
+#modal .box a img{
+    max-width: 100%;
+    height: auto;
+}
+
+#linksite {
+    color: darkcyan;
+}
+
+#linksite:hover {
+    color: lightblue;
+}

@@ -1,0 +1,41 @@
+@import 'main.css';
+@import 'modal.css';
+
+/*  FIRST  */
+
+#first {
+    width: 75%;
+    margin: 150px auto 0 auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 300px;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.block .photographe {
+    width: 95%;
+}
+
+.block .photographe img{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px black;
+}
+
+.block h2 {
+    font-size: 30px;
+}
+
+.block a {
+    color: #999999;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.block a:hover {
+    color: #323232;
+}
